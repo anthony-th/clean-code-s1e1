@@ -44,18 +44,20 @@
   display: flex;
 }
 
-ul {
+.incomplete-task,
+.completed-task {
   margin: 0;
   padding: 0px;
 }
 
-li,
-h3 {
+.task-item,
+.title {
   list-style: none;
 }
 
-input,
-button {
+.task-input,
+.task-checkbox,
+.btn {
   outline: none;
 }
 
@@ -74,7 +76,7 @@ button {
 }
 
 /* Heading */
-h3,
+.title,
 .text-add {
   color: #333;
   font-weight: 700;
