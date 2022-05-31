@@ -70,7 +70,7 @@
 }
 
 .button:hover {
-  color: #3a3A3a;
+  color: #3a3a3a;
 }
 
 /* Heading */
@@ -113,7 +113,7 @@
 }
 
 /* Task list */
-.list__item  {
+.list__item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
