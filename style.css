@@ -34,7 +34,7 @@
   margin: 0 auto 0;
 }
 
-.task {
+.addendum-section__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -130,7 +130,7 @@
   margin: 0 10px;
 }
 
-.task {
+.list__item > .label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -152,7 +152,7 @@
 }
 
 /* Completed */
-.completed-tasks__list .task {
+.completed-section__list .label {
   text-decoration: line-through;
   color: #888;
 }
@@ -162,11 +162,11 @@
   display: none;
 }
 
-.list__edit_mode > .task.input {
+.list__edit_mode .input_item {
   display: inline-block;
   width: 224px;
 }
 
-.list__edit_mode .task {
+.list__edit_mode .label {
   display: none;
 }
