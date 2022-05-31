@@ -163,11 +163,11 @@
   display: none;
 }
 
-.edit-mode > .task.input {
+.list__edit_mode > .task.input {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode .task {
+.list__edit_mode .task {
   display: none;
 } 
