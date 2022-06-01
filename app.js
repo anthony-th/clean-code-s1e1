@@ -8,10 +8,10 @@
 
 // Event handling, user interaction is what starts the code execution.
 
-var taskInput=document.querySelector(".addendum-section__input");//Add a new task.
+var taskInput=document.querySelector(".section_addendum__input");//Add a new task.
 var addButton=document.getElementsByTagName("button")[0];//first button
-var incompleteTaskHolder=document.querySelector(".todo-section__list");//ul of #incomplete-tasks
-var completedTasksHolder=document.querySelector(".completed-section__list");//completed-tasks
+var incompleteTaskHolder=document.querySelector(".section_todo__list");//ul of #incomplete-tasks
+var completedTasksHolder=document.querySelector(".section_completed__list");//completed-tasks
 
 
 //New task list item

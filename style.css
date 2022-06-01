@@ -34,13 +34,13 @@
   margin: 0 auto 0;
 }
 
-.addendum-section__input {
+.section_addendum__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
 
-.addendum-section__wrapper {
+.section_addendum__wrapper {
   display: flex;
 }
 
@@ -75,7 +75,7 @@
 
 /* Heading */
 .title,
-.addendum-section__text {
+.section_addendum__text {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -103,12 +103,12 @@
 }
 
 /* New Task */
-.addendum-section__text {
+.section_addendum__text {
   display: block;
   margin: 0 0 20px;
 }
 
-.addendum-section__input {
+.section_addendum__input {
   width: 318px;
 }
 
@@ -152,7 +152,7 @@
 }
 
 /* Completed */
-.completed-section__list .label {
+.section_completed__list .label {
   text-decoration: line-through;
   color: #888;
 }
