@@ -1,5 +1,5 @@
 /* Basic Style */
-.page {
+.body {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -10,10 +10,10 @@
   display: block;
   text-align: right;
 }
-.header-img {
+.header__image {
   width: 100%;
 }
-.header-info {
+.header__link {
   font-family: fantasy, cursive;
 }
 
@@ -27,29 +27,29 @@
   width: 500px;
   margin: 0 auto 0;
 }
-.task {
+.label,
+.add__input,
+.item > .input_text {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
-.task-wrapper {
+.add__content {
   display: flex;
 }
-.incomplete-task,
-.completed-task {
+.list {
   margin: 0;
   padding: 0px;
 }
-.task-item,
-.title {
+.item {
   list-style: none;
 }
-.task-input,
-.task-checkbox,
-.btn {
+.input,
+.input-checkbox,
+.button {
   outline: none;
 }
-.btn {
+.button {
   background: none;
   border: 0px;
   color: #888;
@@ -58,12 +58,12 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-.btn:hover {
+.button:hover {
   color: #3a3a3a;
 }
 /* Heading */
 .title,
-.text-add {
+.add__title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -72,7 +72,7 @@
   margin: 0;
   text-transform: uppercase;
 }
-.task-input {
+.input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -84,21 +84,21 @@
   font-family: Lato, sans-serif;
   color: #888;
 }
-.task-input:focus {
+.input:focus {
   color: #333;
 }
 
 /* New Task */
-.task-text-add {
+.add__title {
   display: block;
   margin: 0 0 20px;
 }
-#new-task {
+.add__input {
   width: 318px;
 }
 
 /* Task list */
-.task-item {
+.item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -106,47 +106,47 @@
   justify-content: space-between;
   align-items: center;
 }
-.task-item > * {
+.item > * {
   vertical-align: middle;
 }
 
-.task-checkbox {
+.input-checkbox {
   margin: 0 10px;
 }
-.task-text {
+.item > .label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-.task-input-item {
+.item > .input_text {
   width: 226px;
 }
-.delete-img{
+.button__icon {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.delete-img:hover {
+.button__icon:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-#completed-tasks .task-text {
+.completed__list .label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-.task-input-item {
+.item .input_text {
   display: none;
 }
 
-.edit-mode .task-input-item {
+.item_edit-mode .input_text {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode .task-text {
+.item_edit-mode .label {
   display: none;
 }
